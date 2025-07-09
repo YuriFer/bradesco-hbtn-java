@@ -7,7 +7,7 @@ public class Retangulo {
             }
 
             public Object area() {
-                throw new UnsupportedOperationException("Unimplemented method 'area'");
+                throw new UnsupportedOperationException("Funcao area nao implementada");
             }
 
             public void setLargura(double largura){
