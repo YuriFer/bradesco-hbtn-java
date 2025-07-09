@@ -1,3 +1,3 @@
-public class FormaGeometrica extends Retangulo{
+public class FormaGeometrica{
 
         }
