@@ -1,11 +1,17 @@
 public class Numero {
+    static int resultado;
+
     public static void dividir(int a, int b) {
         try {
-            int resultado = a / b;
-            System.out.println(a + " / " + b + " = " + resultado);
+            resultado = a / b;
         } catch (ArithmeticException e) {
             System.out.println("Nao eh possivel dividir por zero");
-            System.out.println(a + " / " + b + " = 0");
+        } finally {
+            if (b == 0) {
+                System.out.println(a + " / " + b + " = 0");
+            } else {
+                System.out.println(a + " / " + b + " = " + resultado);
+            }
         }
     }
 }
