@@ -12,7 +12,7 @@ public class GestaoAlunos {
         listaAlunos.add(novoAluno);
     }
 
-    public void removerAluno(String nome) {
+    public void excluirAluno(String nome) {
         for (Aluno aluno : listaAlunos) {
             if (aluno.getNome().equals(nome)) {
                 listaAlunos.remove(aluno);
