@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
-public class GestaoAluno {
+public class GestaoAlunos {
     private ArrayList<Aluno> listaAlunos;
 
-    public GestaoAluno() {
+    public GestaoAlunos() {
         this.listaAlunos = new ArrayList<>();
     }
 
@@ -36,7 +36,7 @@ public class GestaoAluno {
     }
 
     public static void main(String[] args) {
-        GestaoAluno gestao = new GestaoAluno();
+        GestaoAlunos gestao = new GestaoAlunos();
 
         gestao.adicionarAluno("Joao", 20);
         gestao.adicionarAluno("Maria", 22);
