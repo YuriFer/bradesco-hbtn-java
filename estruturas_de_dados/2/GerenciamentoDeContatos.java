@@ -31,7 +31,7 @@ public class GerenciamentoDeContatos {
         contatos.forEach((nome, contato) -> {
             System.out.println("Nome: " + nome);
             contato.exibirContato();
-            System.out.println("-------------------------");
+            System.out.println("-------------------------------");
         });
     }
 
