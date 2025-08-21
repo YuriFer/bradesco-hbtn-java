@@ -40,6 +40,6 @@ public class Pessoa implements Comparable<Pessoa>{
 
     @Override
     public int compareTo(Pessoa pessoa) {
-        return Double.compare(this.salario, pessoa.salario);
+        return this.nome.compareTo(pessoa.getNome());
     }
 }
