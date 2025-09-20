@@ -1,5 +1,3 @@
-package threads.teste;
-
 public class SistemaFilas {
     Fila fila = new Fila(10);
 
@@ -14,12 +12,12 @@ public class SistemaFilas {
         consumidor2.start();
 
         try {
-            Thread.sleep(20000); // Aguarda 20 segundos
+            Thread.sleep(20000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        System.exit(0); // Encerra o processo após 20 segundos
+        System.exit(0);
     }
 
     public static void main(String[] args) {

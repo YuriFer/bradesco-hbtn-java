@@ -1,5 +1,3 @@
-package threads.teste;
-
 import java.util.LinkedList;
 
 public class Fila {
